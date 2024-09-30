@@ -40,7 +40,7 @@ app.use("/api/payment",paymentRoutes);
 app.use("/api/course",courseRoutes);  
 app.use("/api/profile",profileRoutes);
 
-  app.get("/welcome", (req, res) => {
+  app.get("/api/welcome", (req, res) => {
     res.status(200).json({
       message: "Welcome to API",
     });
