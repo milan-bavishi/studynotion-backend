@@ -45,6 +45,14 @@ app.use("/api/profile",profileRoutes);
       message: "Welcome to API Milan Bavishi",
     });
   });
+
+  app.get("/api/testing", (req,res) => {
+    res.status(200).json({
+      message: "Welcome to the Testing Endpoint ",
+    });
+  });
+
+  
   app.use("/api/products", (req, res) => {
     return res.status(200).json({
       message: 'This is new feature change, a new route Milan'
