@@ -42,7 +42,7 @@ app.use("/api/profile",profileRoutes);
 
   app.get("/api/welcome", (req, res) => {
     res.status(200).json({
-      message: "Welcome to API Milan Bavishi",
+      message: "Welcome to API ",
     });
   });
 
